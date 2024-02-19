@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Button } from "./Button";
 
 const Statics = ({ good, neutral, bad, anecdotes }) => {
   const [selectedAnecdote, setAnecdote] = useState(
