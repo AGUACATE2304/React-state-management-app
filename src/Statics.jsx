@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Statics = ({ good, neutral, bad, anecdotes }) => {
   const [selectedAnecdote, setAnecdote] = useState(
